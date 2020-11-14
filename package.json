@@ -1,0 +1,13 @@
+{
+  "name": "react-secure-login",
+  "version": "1.0.0",
+  "description": "A login page built with React",
+  "main": "index.js",
+  "author": "Chris Ramos",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  }
+}
