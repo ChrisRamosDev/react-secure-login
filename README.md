@@ -9,4 +9,7 @@ usernames / passwords. It directs the user to auth0 for login / signup. It displ
 the users name if available and allows the user to visit certain links only when
 logged in.
 
-### TODO: style app and add content to pages.
+### TODO:
+
+- style app
+- add content to pages

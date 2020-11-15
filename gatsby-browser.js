@@ -1,5 +1,5 @@
-import React from 'react';
-import { silentAuth } from './src/utils/auth';
+import React from "react";
+import { silentAuth } from "./src/utils/auth";
 
 class SessionCheck extends React.Component {
   constructor(props) {
@@ -26,6 +26,7 @@ class SessionCheck extends React.Component {
   }
 }
 
+// wraps the root element so that silentAuth gets called only once when the page loads
 export const wrapRootElement = ({ element }) => {
   return <SessionCheck>{element}</SessionCheck>;
 };
