@@ -2,3 +2,8 @@ build:
   function: functions
   build: yarn build
   publish: public
+
+redirects:
+  from: /*
+  to: index.html
+  status: 200
