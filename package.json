@@ -21,7 +21,7 @@
   "scripts": {
     "develop": "netlify dev",
     "start": "gatsby develop",
-    "build": "gatsby clean && gatsby build",
+    "build": "gatsby clean && gatsby build && cp _redirects build/_redirects",
     "serve": "npm run build && gatsy serve",
     "clean": "gatsby clean"
   }
